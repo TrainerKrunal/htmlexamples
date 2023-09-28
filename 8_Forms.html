@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form method="POST">
+            <table>
+                <tr>
+                    <td>FirstName:</td>
+                    <td>
+                        <input type="text"  id="firstname" name="fname" placeholder="Enter FirstName Here"
+                        maxlength="10" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" id="password" name="pwd" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="M" checked>Male</input>
+                        <input type="radio" name="gender" value="F" >Female</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Technology You Know:</td>
+                    <td>
+                        <input type="checkbox" name="tech" value="Java">JAVA</input>
+                        <input type="checkbox" name="tech" value="React">REACT</input>
+                        <input type="checkbox" name="tech" value="Bootstrap">BOOTSTRAP</input>
+                        <input type="checkbox" name="tech" value="spb">SPRINGBOOT</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>
+                        <textarea rows="5" cols="35" name="address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Preffered Location:</td>
+                    <td>
+                        <select name="country">
+                            <option value="America">USA</option>
+                            <option value="SG">Singapore</option>
+                            <option value="ML">Malaysia</option>
+                            <option value="IND">India</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <input type="submit" value="Save"/>
+                        <input type="reset" value="Clear Form"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
